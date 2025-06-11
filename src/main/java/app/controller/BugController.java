@@ -1,4 +1,6 @@
 package app.controller;
+import app.entities.Bug;
+import app.repositories.BugRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

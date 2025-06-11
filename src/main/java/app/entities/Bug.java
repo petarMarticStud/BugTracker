@@ -22,6 +22,10 @@ public class Bug {
         this.status = status;
     }
 
+    public Bug() {
+
+    }
+
     // Getter und Setter
     public Long getId() { return id; }
     public String getTitle() { return title; }
